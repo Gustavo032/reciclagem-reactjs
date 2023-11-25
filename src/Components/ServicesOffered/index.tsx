@@ -12,6 +12,7 @@ const ServicesOffered: React.FC = () => {
         <Heading mb={4} color="teal.400">
           Nossos Serviços
         </Heading>
+				
         <SimpleGrid columns={[1, 2, 3]} gap={6} justifyContent="center">
           <Box
             p={6}

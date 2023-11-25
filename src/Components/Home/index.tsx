@@ -14,13 +14,14 @@ const Home: React.FC = () => {
       color="white"
       textAlign="center"
     >
-			<Box h="100%" w="100%"
-      backgroundColor="rgba(0, 0, 0, 0.5)" // Ajuste o último valor para controlar a opacidade
+			<Box  h="100%"
+      w="100%"
+      backgroundImage="radial-gradient(ellipse closest-side at 50% 50%, rgba(26, 32, 255, 0.2), transparent 90%);"			// Gradiente de cor transparente embaixo para preto em cima
       flexDirection="column"
       display="flex"
-			justifyContent="center"
-						alignItems="center"
-						color="white"
+      justifyContent="center"
+      alignItems="center"
+      color="white"
 			>
 				<Heading fontSize="4xl" mb={4}>
 					Bem-vindo ao nosso site de reciclagem!
